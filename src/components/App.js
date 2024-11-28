@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Web3 from 'web3';
 import logo from '../logo.png';
-import './App.css';
 import Navbar from './Navbar';
 import Marketplace from '../abis/Marketplace.json';
 import Main from './Main'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   constructor(props) {

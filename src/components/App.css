@@ -1,1 +1,14 @@
 /* Styles go here */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F8F9; /* Light background for contrast */
+}
+
+button:hover {
+    background-color: #A8D5E3; /* Teal hover effect */
+    border-color: #A8D5E3;
+}
+
+form-control:hover {
+    border-color: #FF78AC; /* Pink hover effect */
+}
